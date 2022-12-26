@@ -96,6 +96,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                 </td>
             </tr>
         </table>
-        <button class="normal">Đặt hàng</button>
+        <a href="checkout.php"><button class="normal">Đặt hàng</button></a>
     </div>
 </section>

@@ -7,16 +7,17 @@
         </h3>
         <form action="./login-action.php" method="post">
             <div class="container">
-                <label>
-                    <h3>Email</h3>
-                </label>
-                <input type="text" placeholder="Nhập email" name="email" required>
-                <label>
-                    <h3>Mật khẩu</h3>
-                </label>
-                <input type="text" placeholder="Nhập mật khẩu" name="password" required>
-                <button type="submit" name="signin">Đăng nhập</button>
-                <input type="checkbox" checked="checked" name="remember"> Nhớ tôi
+                <?php if (isset($_GET['error'])) { ?>
+                <p class="error"><?php echo $_GET['error']; ?></p>
+                <?php } ?>
+                
+                <label>Tài khoản</label>
+                <input type="text" name="uname" placeholder="User Name"><br>
+
+                <label>Mật khẩu</label>
+                <input type="password" name="password" placeholder="Password"><br>
+
+                <button type="submit">Login</button>
             </div>
         </form>
     </div>

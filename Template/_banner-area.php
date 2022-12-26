@@ -15,7 +15,7 @@
         <h3 class="title-subheading">Chính hãng. Chất lượng vượt trội.</h3>
     </div>
     <div class="cta">
-        <a href="#" class="cta-link">Mua sắm ngay</a>
+        <a href="./products.php" class="cta-link">Mua sắm ngay</a>
     </div>
 </section>
 
@@ -25,6 +25,6 @@
         <h3 class="title-subheading">Tay nghề chuyên nghiệp. Giá thành hợp lý. </h3>
     </div>
     <div class="cta">
-        <a href="#" class="cta-link">Đặt lịch ngay</a>
+        <a href="./services.php"" class="cta-link">Đặt lịch ngay</a>
     </div>
 </section>

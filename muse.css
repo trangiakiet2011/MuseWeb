@@ -11,6 +11,8 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
 /* Global */
 
 * {
@@ -59,6 +61,8 @@ a {
 .cta-link:hover {
     border-bottom: 2px solid white;
 }
+
+
 /* Navigation Bar */
 
 header {
@@ -98,6 +102,8 @@ header {
     /* resize: 8.8rem 4.4rem; */
     background: url("./img/muse-logo.png") center no-repeat;
 }
+
+
 /* footer */
 
 #icon {
@@ -151,6 +157,8 @@ footer p {
 footer a {
     margin: 0 0 8px 0;
 }
+
+
 /* Hero banner */
 
 .hero {
@@ -199,6 +207,8 @@ footer a {
     color: #888;
     margin-top: .6rem;
 }
+
+
 /* Product Page */
 
 .product-container {
@@ -230,7 +240,6 @@ footer a {
     margin: auto;
     display: block;
     width: 20vh;
-    aspect-ratio: 5/7.5;
 }
 
 .tile-body {
@@ -259,6 +268,8 @@ footer a {
 .tile-footer:hover {
     opacity: 0.7;
 }
+
+
 /* Single Product Page*/
 
 #product-details {
@@ -278,6 +289,8 @@ footer a {
     flex-basis: 50%;
     cursor: pointer;
 }
+
+
 /* Cart page */
 
 #cart table {
@@ -401,6 +414,8 @@ footer a {
     padding: 10px;
     font-size: 1.5rem;
 }
+
+
 /* Login page */
 
 #login,
@@ -449,6 +464,8 @@ footer a {
 #login button {
     font-size: 1.5rem;
 }
+
+
 /* SignUp Page */
 
 #signup button {
