@@ -1,0 +1,489 @@
+@font-face {
+    font-family: iCielBCDowntown-Regular;
+    src: url('./fonts/iCielBCDowntown-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iCiel Simplifica;
+    src: url('./fonts/iCiel Simplifica.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Global */
+
+* {
+    font-family: iCiel Simplifica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    color: black;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    padding: 0 4.4rem;
+}
+
+.section-p1 {
+    margin-top: 4.4rem;
+}
+
+.cta {
+    text-align: right;
+    margin-top: 0.6rem;
+    padding-right: 10rem;
+    border: 0;
+    border-radius: 50%;
+}
+
+.cta-link {
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.cta-link:nth-child(3) {
+    padding-right: 15rem;
+}
+
+.cta-link:hover {
+    border-bottom: 2px solid white;
+}
+/* Navigation Bar */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-link {
+    font-family: iCielBCDowntown-Regular;
+    font-size: 1.4rem;
+    color: black;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+
+.nav-link:hover {
+    opacity: .7;
+}
+
+.nav-link-muse {
+    width: 8.8rem;
+    height: 4.4rem;
+    /* resize: 8.8rem 4.4rem; */
+    background: url("./img/muse-logo.png") center no-repeat;
+}
+/* footer */
+
+#icon {
+    padding: 10px 10px;
+}
+
+#icon a {
+    display: contents
+}
+
+#contact {
+    padding: 10px 10px;
+}
+
+#contact p {
+    color: black;
+}
+
+footer {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4.4rem 2.2rem 2.2rem 2.2rem;
+    padding: 2.2rem;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer h3 {
+    font-size: 2rem;
+    font-weight: 1000;
+    padding-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    font-weight: 1000;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 1000;
+}
+
+footer a {
+    margin: 0 0 8px 0;
+}
+/* Hero banner */
+
+.hero {
+    height: 100vh;
+    background-size: auto 80rem;
+    background-position: center;
+    border-top: .6rem solide #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.product-banner {
+    background: url("./img/product-hero.jpg");
+}
+
+.sale-banner {
+    background: url("./img/sale-hero.jpg");
+    margin-top: 4.4rem;
+}
+
+.services-banner {
+    background: url("./img/service-hero.jpg");
+}
+
+.title {
+    color: white;
+    text-align: right;
+    padding-top: 10rem;
+    padding-right: 10rem;
+}
+
+.title-heading {
+    font-size: 5rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+
+.title-subheading {
+    font-size: 2.5rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.title-description {
+    font-size: 1.75rem;
+    color: #888;
+    margin-top: .6rem;
+}
+/* Product Page */
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 30vh;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    justify-content: center;
+    text-align: left;
+    color: black;
+    border-radius: 6px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.02 ease;
+    position: relative
+}
+
+.product:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.tile img {
+    margin: auto;
+    display: block;
+    width: 20vh;
+    aspect-ratio: 5/7.5;
+}
+
+.tile-body {
+    margin-left: 10px;
+    border: none;
+    font-family: iCielBCDowntown-Regular;
+    box-shadow: none;
+}
+
+.tile-body h4 {
+    color: #606063;
+}
+
+.tile-body h3 {
+    padding-top: 5px
+}
+
+.tile-footer {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: none;
+}
+
+.tile-footer:hover {
+    opacity: 0.7;
+}
+/* Single Product Page*/
+
+#product-details {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 50%;
+    cursor: pointer;
+}
+/* Cart page */
+
+#cart table {
+    color: black;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2) {
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 400px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 200px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 18px 0;
+}
+
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+
+#cart table tbody td {
+    font-size: 2rem;
+}
+
+#cart-add {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 4.4rem;
+}
+
+#coupon {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#coupon h3 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+#coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+#subtotal h3 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+#subtotal h4 {
+    font-size: 1.5rem;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+/* Login page */
+
+#login,
+#signup {
+    color: black;
+    margin-top: 8rem;
+    font-size: 1.5rem;
+}
+
+#login button {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#login button:hover {
+    opacity: 0.7;
+}
+
+#login form {
+    padding: 1rem;
+    border: 3px solid #f1f1f1;
+}
+
+#login .container {
+    margin: 0 auto;
+    width: 20%;
+}
+
+#login input[type=text],
+#login input[type=password] {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 6px 10px;
+    display: block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+#login button {
+    font-size: 1.5rem;
+}
+/* SignUp Page */
+
+#signup button {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#signup button:hover {
+    opacity: 0.7;
+}
+
+#signup form {
+    padding: 1rem;
+    border: 3px solid #f1f1f1;
+}
+
+#signup .container {
+    margin: 0 auto;
+    width: 20%;
+}
+
+#signup input[type=text],
+#signup input[type=password] {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 6px 10px;
+    display: block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
