@@ -40,7 +40,7 @@ INSERT INTO `product` (`item_id`, `item_brand`, `item_name`, `item_price`, `item
 (9, 'Gibson', 'Les Paul Special Tribute', 999.00, './img/product/Gibson/Les Paul Special Tribute.png','2022-12-26 18:24:00'),
 (10, 'Gibson', 'Les Paul Studio', 1699.00, './img/product/Gibson/Les Paul Studio.png','2022-12-26 18:24:00');
 
-INSERT INTO `user` (`user_id`, `first_name`, `last_name`, `register_date`) VALUES
+INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `register_date`) VALUES
 (1, 'Kiet', 'Tran','2022-12-26 18:24:00'),
 (2, 'Minh', 'Nguyen','2022-12-26 18:24:00'),
 (2, 'Thao', 'Le','2022-12-26 18:24:00');

@@ -5,7 +5,7 @@
                 <h3>Đăng ký</h3>
             </center>
         </h3>
-        <form>
+        <form action="">
             <div class="container">
                 <label>
                     <h3>Email</h3>

@@ -13,9 +13,9 @@
 
         <div id="icon">
             <h4><strong>Các nền tảng</strong></h4>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/muse.guitarshop"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ki_lugu/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCKT_NTnBVwfFHFDJTKExiCQ"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </div>
 

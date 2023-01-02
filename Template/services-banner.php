@@ -3,7 +3,4 @@
         <h2 class="title-heading">Dịch vụ cao cấp</h2>
         <h3 class="title-subheading">Tay nghề chuyên nghiệp. Giá thành hợp lý. </h3>
     </div>
-    <div class="cta">
-        <a href="#" class="cta-link">Đặt lịch ngay</a>
-    </div>
 </section>
